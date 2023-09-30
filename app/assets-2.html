@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lovelle Digital</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://cdn.glitch.global/d8f451b7-a87b-4fb2-92eb-a01a2f3729ef/29.jpg?v=1695166259957" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+  <div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Lovelle Digital Store</p>
+    <p class="w3-right"><a href="https://lovelledigital.etsy.com">
+      <i class="fa fa-shopping-cart w3-margin-right"></i></a>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <img src="https://cdn.glitch.global/d8f451b7-a87b-4fb2-92eb-a01a2f3729ef/32.jpg?v=1695166293979" alt="Jeans" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small"> </h1>
+      <h1 class="w3-hide-large w3-hide-medium"></h1>
+      <h1 class="w3-hide-small"></h1>
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="w3-container w3-text-grey" id="jeans">
+    <p>21 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="https://cdn.glitch.global/d8f451b7-a87b-4fb2-92eb-a01a2f3729ef/6.jpg?v=1696047270309" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1552772516">
+        <p>10 Ways To Boost Your Self Esteem Bookmarks<br><b>$11.31</b></p></a>
+      </div>
+      <div class="w3-container">
+        <img src="https://cdn.glitch.global/d8f451b7-a87b-4fb2-92eb-a01a2f3729ef/3.png?v=1696047504804" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1555077618">
+        <p>10 Ways To Mentor<br><b>$19.99</b></p></a>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="https://cdn.glitch.global/d8f451b7-a87b-4fb2-92eb-a01a2f3729ef/Untitled%20(Instagram%20Post%20(Square))%20(2).jpg?v=1696048094009" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1544819216">
+          <span class="w3-tag w3-display-topleft"></span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button></a>
+          </div>
+        </div>
+        <p>5 Funny Joke Cards<br><b>$7.78</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1565375263">
+        <p>Greeting Card<br><b>$9.20</b></p></a>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1560677639">
+        <p>Anniversary Greeting Card<br><b>$6.37</b></p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="" style="width:100%">
+          <span class="w3-tag w3-display-topleft"></span><a href="https://lovelledigital.etsy.com/listing/1560889815">
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button></a>
+          </div>
+        </div>
+        <p><a href="https://lovelledigital.etsy.com/listing/1559034615"> A Set Of Birthday Greeting Cards<br><b class="w3-text-red">$9.20</b></p></a>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1553444186">
+        <p>Portraits Of Horses 2024 Calendar<br><b>$21.23</b></p></a>
+      </div>
+      <div class="w3-container">
+        <img src="" style="width:100%"><a href="https://lovelledigital.etsy.com/listing/1566934307">
+        <p>TeddyBear Nursery 2024 Calendar<br><b>$29.70</b></p></a>
+      </div>
+    </div>
+  </div>
+    
+    <div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Jeans</p>
+    <p class="w3-right">
+     
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small"></h1>
+      <h1 class="w3-hide-large w3-hide-medium"></h1>
+      <h1 class="w3-hide-small"></h1>
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="w3-container w3-text-grey" id="jeans">
+    <p>8 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/w3images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/w3images/jeans2.jpg" style="width:100%">
+        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="/w3images/jeans2.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/w3images/jeans3.jpg" style="width:100%">
+        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/w3images/jeans3.jpg" style="width:100%">
+        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="/w3images/jeans4.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Sale</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/w3images/jeans4.jpg" style="width:100%">
+        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/w3images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      </div>
+    </div>
+  </div>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Lovelle Digital</h1>
+    <p> Studio</p>
+    <img src="" alt="" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    
+   
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/33.jpg?v=1694813052753" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/37.jpg?v=1694813062081" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/34.jpg?v=1694813054778" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/41.jpg?v=1694813074653" style="width:100%">
+      </div>
+      
+        <div class="w3-half">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/43.jpg?v=1694813079535" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/45.jpg?v=1694813084895" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/24.png?v=1694809725972" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/38.png?v=1694809755080" style="width:100%">
+      </div>
+      
+        <div class="w3-half">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/42.png?v=1694809763915" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/18.jpg?v=1694813016436" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/14.jpg?v=1694813002652" style="width:100%">
+        <img src="https://cdn.glitch.global/32f4a953-cf79-4973-be1b-a7ad84b74b7e/31.jpg?v=1694813047626" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+ 
+  
+    <!-- Footer -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+   
+  </footer>
+
+<!-- END PAGE CONTENT -->
+
+
+</body>
+</html>
